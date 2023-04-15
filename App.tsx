@@ -12,7 +12,6 @@ import {useDispatch, useSelector} from 'react-redux';
 
 import {decrement, increment, incrementByAmount} from './src/counterSlide';
 import {RootState} from './src/store';
-import {getType} from '@reduxjs/toolkit';
 
 const App = () => {
   const count = useSelector((state: RootState) => state.counter.value);
