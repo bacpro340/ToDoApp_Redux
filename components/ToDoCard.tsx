@@ -21,19 +21,19 @@ export default class TodoCard extends Component<IToDoCardComponentProps> {
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     flexDirection: 'column',
-    backgroundColor: '#095',
-    padding: 4,
-    margin: 10,
+    backgroundColor: 'black',
   },
   title: {
     fontSize: 20,
+    color:'white',
     fontWeight: 'bold',
   },
   text: {
     fontSize: 16,
+    color:'white',
+    textAlign:'center',
     fontWeight: 'normal',
   },
 });
